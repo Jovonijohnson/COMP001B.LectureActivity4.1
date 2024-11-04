@@ -26,13 +26,18 @@ header {
     border: 25px solid black;
     width: 100%;
 }
+p {
+    margin-top: 20px; /* Adjust the value as needed */
+}
+
 .dungeon{
     color: gray;
     text-align: right;
 }
 /* Added blue border */
-h1,h2,h3{
+h2{
     color: green;
+    border: 2px solid black;
 }
 p{
     text-align: center;
