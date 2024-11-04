@@ -1,11 +1,73 @@
+  /*
+ Welcome2thebatcave
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
 .dancing-script-header {
     font-family: "Dancing Script", cursive;
     font-optical-sizing: auto;
     font-weight: 700; /* You can use any value from 400 to 700 */
     font-style: normal;
   }
+
+  .hind-h2-h3{
+    font-family: "Hind", Impact;
+    font-optical-sizing: auto;
+    font-weight: 600; /* You can use any value from 400 to 700 */
+    font-style: normal;
+  }
+body {
+    padding: 20;
+    margin: 20;
+}
+/* Added Background color */
+header {
+    border: 25px solid black;
+    width: 100%;
+}
+.dungeon{
+    color: gray;
+    text-align: right;
+}
+/* Added blue border */
+h1,h2,h3{
+    color: green;
+}
+p{
+    text-align: center;
+}
+.clear{
+    clear: both;
+}
+h2{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    box-sizing: border-box;
+
+    width: 10%;
+    float: left;
+}
+
+button{
+    color: green;
+}
+
+a{
+    color: darkblue;
+}
+section{
+    border: 3 solid black;
+    width: 80%;
+    float: left;
+}
+article{
+border: 4 solid white;
+    width: 10%;
+    float: left;
+}
+/* adjusted 3 columns */
   
